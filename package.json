@@ -1,0 +1,22 @@
+{
+  "name": "go-cmk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gosrv.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "open": "^0.0.5",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Alexander Schittler",
+    "email": "me@damongant.de",
+    "url": "https://deniableplausibility.net"
+  },
+  "license": "CC-BY-SA-4.0"
+}

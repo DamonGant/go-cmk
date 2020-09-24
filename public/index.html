@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Custom Music Kit</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/musickit.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="sc nojs">
+        <h1>JavaScript is required.</h1>
+      </div>
+      <div class="sc uninitialized">
+        <h1>Waiting for Socket.IO</h1>
+      </div>
+      <div class="sc connected">
+        <h1>Connected \o/</h1>
+      </div>
+      <div class="sc error">
+        <h1>Error connecting to Socket.IO</h1>
+      </div>
+      <div class="console">
+        <ul class="console-list">
+
+        </ul>
+      </div>
+    </div>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/lodash.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/musickit.js"></script>
+  </body>
+</html>
